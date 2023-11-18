@@ -1,0 +1,315 @@
+/* 
+    Author: Vijay Thapa;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.8%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+.text-green{
+    color: green;
+}
+.text-red{
+    color: #ff4757;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #e74762;
+    text-decoration: none;
+}
+a:hover{
+    color: #0a5cb9;
+}
+
+
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #41c975;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: inherit;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    
+    border-color: #41c975;
+    border-radius: 5px;
+}
+
+.img-logo{
+    width: 500%;
+}
+/* CSSS for navbar section */
+
+.logo{
+    width: 5%;
+    float: left;
+    
+}
+.menu{
+    line-height: 55px;
+    width: 100%;
+
+
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for tour SEarch Section */
+.tour-search{
+    background-image: url(../images/dulich.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 10px;
+}
+
+.tour-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: #34ad00;
+    border-color: #34ad00;
+    border-radius: 5px;
+    background-color: #41c975;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for tour Menu */
+.tour-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.tour-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.tour-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.tour-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.tour-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.tour-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+/* css top header */
+.logo a {
+    color: #3F84B1;
+    letter-spacing: 1px;
+    font-size: 2em;
+    font-weight: 400;
+    display: block;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+}
+li.hm,li.prnt {
+    margin-right: 12px;
+}
+li.hm, li.prnt {
+    margin-right: 2px;
+}
+.logo span {
+    color:#34ad00;
+}
+i.fa.fa-home {
+    font-size: 24px;
+}
+.top-header {
+    background-color: black;
+    border-bottom: none;
+	height: 50px;
+    line-height: 48px;
+    /* line-height: 2px; */
+}
+
+ul.tp-hd-lft{
+    float: left;
+    margin-left: 188px;
+}
+ul.tp-hd-lft li {
+    display: inline-block;
+}
+/* li.hm,li.prnt {
+    margin-right: 12px;
+} */
+ul.tp-hd-lft a {
+    font-size: 13px;
+    font-weight: 600;
+	color:#fff;
+}
+ul.tp-hd-rgt{
+    float:right;
+    margin-right: 188px;
+}
+ul.tp-hd-rgt li {
+    display: inline-block;
+	font-size: 13px;
+    font-weight: 600;
+	color:#fff;
+}
+ul.tp-hd-rgt  a {
+    font-size: 13px;
+    font-weight: 600;
+	color:#fff;
+}
+/* li.ned,li.wrt,li.tol{
+    margin-left: 120px;
+} */
+.ui-tabs { position: relative; padding: .2em; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav { margin: 0; padding: .2em .2em 0; }
+.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 0; margin: 1px .2em 0 0; border-bottom: 0; padding: 0; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-active { margin-bottom: -1px; padding-bottom: 1px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-tabs-loading a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-active a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; }
+
+.ui-tooltip {
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+}
+
+* html .ui-tooltip {
+	background-image: none;
+}
+body .ui-tooltip { border-width: 2px; }
+
+/* Component containers
+----------------------------------*/
+.ui-widget { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1em/*{fsDefault}*/; }
+.ui-widget .ui-widget { font-size: 1em; }
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1em; }
+
+
+
+
+
+
+
+

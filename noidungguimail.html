@@ -1,0 +1,109 @@
+<style>
+    .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+    text-align: center;
+    color: brown;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.order-details,
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.thank-you {
+    font-style: italic;
+}
+
+p {
+    margin: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* Custom styles for tour details */
+.order-details {
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+
+.order-details h2 {
+    color: #333;
+    font-size: 16px;
+}
+
+.order-details p {
+    margin-bottom: 8px;
+}
+
+.contact-info p {
+    margin-bottom: 8px;
+}
+
+.contact-info h2 {
+    color: #333;
+    font-size: 16px;
+}
+
+.thank-you {
+    font-style: italic;
+    color: #888;
+}
+
+</style>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var today = new Date();
+        var day = String(today.getDate()).padStart(2, "0");
+        var month = String(today.getMonth() + 1).padStart(2, "0");
+        var year = today.getFullYear();
+        var formattedDate = day + "/" + month + "/" + year;
+        document.getElementById("order-date").innerText = formattedDate;
+    });
+</script>
+<html>
+
+<body>
+
+
+    <div class="container text-center">
+        <h1>Xác nhận tour của bạn</h1>
+        <hr>
+        
+
+        <div class="order-details">
+            <p>Cảm ơn bạn đã tour tại Du Lịch Việt. Dưới đây là thông tin chi tiết về tour của bạn:</p>
+            <h2>Thông tin tour</h2>
+            <p><strong>Tour:</strong>{tour}</p>
+            <p><strong>Số lượng:</strong>{quantity}</p>
+            <p><strong>Giá tour/người:</strong>{price}</p>
+            <p><strong>Tổng tiền:</strong>{total}</p>
+            <p><strong>Ngày đặt tour:</strong> <span id="order-date"></span></p>
+        </div>
+<hr>
+        <div class="contact-info">
+            <h2>Thông tin liên hệ</h2>
+            
+            <p>Nếu bạn có bất kỳ câu hỏi hoặc cần hỗ trợ, vui lòng liên hệ:</p>
+            <p>Email: dulichviet@gmail.com</p>
+            <p>Điện thoại: 0945777239</p>
+        </div>
+
+        <p class="thank-you">Cảm ơn bạn đã lựa chọn Du Lịch Việt. Chúng tôi rất mong muốn được phục vụ bạn!</p>
+    </div>
+</body>
+
+</html>
